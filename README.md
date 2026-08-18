@@ -162,7 +162,7 @@ Loss and accuracy curves across training and validation, with early stopping app
 
 ## Notes
 
-- The model is trained **entirely from scratch** — no transfer learning — as required by the task.
+- The model is trained **entirely from scratch** — no transfer learning.
 - The frame sampling strategy was specifically designed to reduce the chance of missing short, localized shoplifting actions within longer clips, in addition to satisfying the requirement of even coverage across the full video duration.
 - The model achieves strong, balanced performance across both classes (F1 ≈ 0.97 for each), indicating the motion-aware sampling and consistent augmentation strategy were effective despite training from scratch on a moderately small dataset (630 clips).
 
